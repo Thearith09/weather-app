@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 2px solid #eeeeee;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #888888;
+    margin-right: 20px;
+}
+
+.portrait {
+    width: 300px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+#submit {
+    padding: 10px;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    cursor: pointer;
+}
+
+#message-one {
+    color: red;
+}
+#message-two {
+    color: rgb(43, 223, 43);
+}
